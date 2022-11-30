@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ‘The absolute path is’ $path
+echo ${BASH_SOURCE:-$0}
